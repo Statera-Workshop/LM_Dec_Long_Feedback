@@ -24,7 +24,7 @@ All models share one protocol: 256-byte vocabulary, dim 512, 6 layers, 8 heads x
 - Parameters: 22.85 M
 - Causality check: pass (largest change of earlier outputs 0.0e+00)
 - Overfit check (4 x 256 bytes): 5.728 -> 0.085 nats, pass
-- LM-02 enwik8 (200M tokens): valid 3.453 / test 3.442 bits per byte (time-capped)
+- LM-02 enwik8 (200M tokens): valid 2.506 / test 2.482 bits per byte (time-capped)
 - Peak GPU memory at length 2048 (batch 1): train 3476 MB, inference 60 MB
 - Peak GPU memory at length 8192 (batch 1): train 14384 MB, inference 105 MB
 

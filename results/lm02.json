@@ -9,29 +9,36 @@
   "trained in micro-batches of 2 with gradient accumulation (same update; the token-by-token recurrence keeps a long graph and does not fit batch 16 x 512 in 8 GB)"
  ],
  "torch": "2.5.1+cu124",
- "gpu": "NVIDIA GeForce RTX 3070 Ti",
+ "gpu": "NVIDIA GeForce RTX 4090",
  "stage": "lm02",
- "started": "2026-10-21 16:21:07",
+ "started": "2026-11-24 09:39:44",
  "smoke": false,
  "params": 22851079,
  "micro_batch": 2,
- "steps": 362,
- "tokens": 2965504,
+ "steps": 1123,
+ "tokens": 9199616,
  "budget_tokens": 200000000,
  "capped": true,
  "bf16": true,
- "hours": 10.188,
- "valid_bpc": 3.4526391967660714,
- "test_bpc": 3.4419312634062953,
+ "hours": 5.672,
+ "valid_bpc": 2.505656846033199,
+ "test_bpc": 2.4821529336499557,
  "valid_tokens": 4915200,
  "test_tokens": 4915200,
  "history": [
   {
-   "step": 362,
-   "tokens": 2965504,
-   "train_bpc": 1.5039764906647184,
-   "valid_bpc": 3.4529880566940405,
-   "hours": 4.47411462366581
+   "step": 1000,
+   "tokens": 8192000,
+   "train_bpc": 3.396060727118605,
+   "valid_bpc": 2.6131514551024435,
+   "hours": 3.5757834304703606
+  },
+  {
+   "step": 1123,
+   "tokens": 9199616,
+   "train_bpc": 2.5459896638195425,
+   "valid_bpc": 2.519959874772966,
+   "hours": 4.12964173913002
   }
  ],
  "prime": [
@@ -164,6 +171,6 @@
   110,
   101
  ],
- "sample": " the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the",
- "seconds": 36720.2
+ "sample": " and a some on a some on a some on a some on a some on of the sextement of the original of the serve of the seriety of the serve of the seriety of the seend of the series of the servement of the or the servement of the or of the original of the original of",
+ "seconds": 20433.5
 }
